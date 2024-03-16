@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import {  Popover } from 'antd';
 import avatar from './assets/images/avatar-michelle.jpg'
 import drawers from './assets/images/drawers.jpg'
@@ -10,7 +9,6 @@ import iconTwo from './assets/images/icon-twitter.svg'
 import iconThree from './assets/images/icon-pinterest.svg'
 
 function App() {
-  const [count, setCount] = useState(0);
   const content = (
     <div className={styles.popCont}>
       <div className={styles.popContText}>SHARE</div>
