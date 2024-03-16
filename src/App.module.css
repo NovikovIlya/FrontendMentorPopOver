@@ -17,6 +17,8 @@ body{
 }
 .right{
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .header{
     font-size: 20px;
@@ -29,6 +31,7 @@ body{
     margin-bottom: 10px;
 }
 .bottom{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -88,4 +91,10 @@ body{
 .popContText{
     letter-spacing:5px;
     color: #ecf1f89c;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        grid-template-columns: 1fr;
+    }
 }
